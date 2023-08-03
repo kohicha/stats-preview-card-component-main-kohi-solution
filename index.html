@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="bg-[#090b1a] sm:grid place-content-center min-h-screen ">
+        <div class="flex flex-col-reverse sm:flex-row max-w-6xl bg-[#1b1938] gap-16 rounded-lg">
+              <div class="sm:flex sm:flex-col p-20 sm:w-1/2 m-0 justify-between items-center text-center sm:text-left">
+                    <p class="text-4xl font-Inter font-bold text-white">
+                      Get <span class="text-[#aa5cdb]">insights</span> that help your business grow.
+                    </p>
+                    
+                    <p class="text-base text-white opacity-80 font-Inter font-extralight pr-2">
+                      Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+                      experience, and overall efficiency.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-16 font-Inter pr-0 sm:pr-12">
+                      <p class="flex flex-col text-white font-bold text-2xl">
+                        10k+ 
+                        <span class="font-extralight text-sm font-LexendDeca tracking-wider opacity-80">
+                          COMPANIES
+                        </span>
+                      </p>
+                      <p class="flex flex-col text-white font-bold text-2xl">
+                        314 
+                        <span class="font-extralight text-sm font-LexendDeca tracking-wider opacity-80">
+                          TEMPLATES
+                        </span>
+                      </p>
+                      <p class="flex flex-col text-white font-bold text-2xl">
+                        12M+ 
+                        <span class="font-extralight text-sm font-LexendDeca tracking-wider opacity-80">
+                          QUERIES
+                        </span>
+                      </p>
+                </div>
+              </div>
+          <div class="bg-[#7C449F] rounded-t-lg sm:rounded-r-lg">
+
+              <img src="images/image-header-desktop.jpg" alt="" class="opacity-60 h-full hidden sm:block rounded-r-lg">
+              <img src="images/image-header-mobile.jpg" alt="" class="opacity-60 rounded-t-lg w-full sm:hidden">
+
+          </div>
+          
+
+          </div>
+  </main>
+
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">kohi</a>.
+  </div>
+</body>
+</html>
